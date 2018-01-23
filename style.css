@@ -1,0 +1,251 @@
+@media only screen and (max-width: 740px) {
+    /* For phones: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+@media only screen and (min-width: 741px) and (max-width: 1007px) {
+    /* For tablets: */
+    .col-t-1 {width: 8.33%;}
+    .col-t-2 {width: 16.66%;}
+    .col-t-3 {width: 25%;}
+    .col-t-4 {width: 33.33%;}
+    .col-t-5 {width: 41.66%;}
+    .col-t-6 {width: 50%;}
+    .col-t-7 {width: 58.33%;}
+    .col-t-8 {width: 66.66%;}
+    .col-t-9 {width: 75%;}
+    .col-t-10 {width: 83.33%;}
+    .col-t-11 {width: 91.66%;}
+    .col-t-12 {width: 100%;}
+    #ensaladas{
+    	clear:left;
+    }
+}
+@media only screen and (min-width: 1008px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    #drinks{
+    	clear:left;
+    }
+}
+
+body{
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+	background-image: url("images/back.png");
+}
+h1{
+	font-size: 250%;
+}
+a{
+	box-sizing: border-box;
+	text-decoration: none;
+}
+.section table{
+	width: 100%
+}
+.titleBlock{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height:120px;
+	background-color: rgb(246, 255, 237);
+	border-bottom: solid;
+	border-width: 25px;
+	border-color: rgb(38,38,38);
+	z-index: 1000;
+	font-family: 'Poller One', cursive;
+}
+.titleText{
+	position: relative;
+	top: -18%;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 300%;
+	vertical-align: center;
+	color: #640d5a;
+}
+.spacer{
+	box-sizing: border-box;
+	display: inline-block;
+	position: relative;
+	top: 150px;
+	left: 0;
+	width: 100%;
+}
+.menu{
+	box-sizing: border-box;
+	float:left;
+	padding-top: 5px;
+	top: 145px;
+	margin-left: 3%;
+	width: 94%;
+	border: solid;
+	border-width: 25px;
+	border-color: rgb(38,38,38);
+	background-color: rgb(246, 255, 237);
+	padding-bottom: 65px;
+	margin-bottom: 65px;
+	margin-top: 150px;
+}
+.indexWrap{
+	box-sizing: border-box;
+	float:left;
+	padding-top: 0px;
+	top: 145px;
+	margin-left: 15%;
+	width: 70%;
+	border: solid;
+	border-width: 25px;
+	border-color: rgb(38,38,38);
+	background-color: rgb(246, 255, 237);
+	padding-bottom: 65px;
+	margin-bottom: 65px;
+	margin-top: 150px;
+}
+.mapWrap{
+	box-sizing: border-box;
+	float:left;
+	padding-top: 0px;
+	top: 145px;
+	margin-left: 20%;
+	width: 60%;
+	border: solid;
+	border-width: 25px;
+	border-color: rgb(38,38,38);
+	background-color: rgb(246, 255, 237);
+	padding-bottom: 65px;
+	margin-bottom: 65px;
+	margin-top: 150px;
+}
+.menuSpacer{
+	box-sizing: border-box;
+	position: relative;
+	top: 20px;
+	left: 3%;
+	width: 94%;
+}
+.indexSpacer{
+	box-sizing: border-box;
+	position: relative;
+	background-color: rgb(246, 255, 237);
+	top: 0px;
+	left: 0%;
+	width: 100%;
+}
+.aboutSpacer{
+	box-sizing: border-box;
+	position: relative;
+	background-color: rgb(246, 255, 237);
+	top: 0px;
+	padding-top: 5%;
+	padding-right: 8%;
+	padding-left: 8%;
+	padding-bottom: -4%;
+	left: 0%;
+	width: 100%;
+	margin-bottom: -3%;
+}
+#tacoIMG{
+	border-bottom: solid;
+	border-width: 25px;
+	border-color: rgb(38,38,38);
+}
+.section{
+	display: inline-block;
+	box-sizing: border-box;
+	float:left;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+.linkBlock{
+	display: inline-block;
+	box-sizing: border-box;
+	float:left;
+	padding-top: 50px; 
+}
+.linkDisplay{
+	display: inline-block;
+	box-sizing: border-box;
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%; 
+	float:left;
+	border: solid;
+	border-width: 10px;
+	border-color: rgb(38,38,38);
+	text-align: center;
+	padding-top: 20px;
+	color: #640d5a;
+	font-size: 150%;
+	font-family: 'Poller One', cursive;
+	background-color: #DCF1BA;
+}
+#linkIMG{
+	display: block;
+	margin: auto;
+	height: 75px;
+}
+#mapIMG{
+	margin-bottom: -70px;
+}
+#signatures h1{
+	color:rgb(240, 95, 47);
+	font-family: 'Poller One', cursive;
+}
+#signatures h2{
+	color:rgb(245, 130, 32);
+	font-family: 'Poller One', cursive;
+}
+#favorites h1{
+	color: #2D4197;
+	font-family: 'Poller One', cursive;
+}
+#favorites h2{
+	color: #1390C8;
+	font-family: 'Poller One', cursive;
+}
+#ensaladas h1{
+	color: #1A5245;
+	font-family: 'Poller One', cursive;
+}
+#ensaladas h2{
+	color: #92C63E;
+	font-family: 'Poller One', cursive;
+}
+#drinks h1{
+	color: #640d5a;
+	font-family: 'Poller One', cursive;
+}
+#desserts h1{
+	color: rgb(106, 46, 6);
+	font-family: 'Poller One', cursive;
+}
+#catering h1{
+	color: #C20B29;
+	font-family: 'Poller One', cursive;
+}
