@@ -263,6 +263,10 @@ a{
 .linkBlock{
 	display: inline-block;
 	box-sizing: border-box;
+	border: solid;
+	border-color: rgb(38,38,38);
+	background-color: rgb(246, 255, 237);
+    border-width: 15px;
 	float:left;
 	padding-top: 50px; 
 }
