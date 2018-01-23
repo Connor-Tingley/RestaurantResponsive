@@ -263,10 +263,6 @@ a{
 .linkBlock{
 	display: inline-block;
 	box-sizing: border-box;
-	border: solid;
-	border-color: rgb(38,38,38);
-	background-color: rgb(246, 255, 237);
-    border-width: 15px;
 	float:left;
 	padding-top: 50px; 
 }
@@ -279,6 +275,10 @@ a{
 	float:left;
 	text-align: center;
 	padding-top: 20px;
+	border: solid;
+	border-color: rgb(38,38,38);
+	background-color: rgb(246, 255, 237);
+    border-width: 10px;
 	color: #640d5a;
 	font-size: 150%;
 	font-family: 'Poller One', cursive;
